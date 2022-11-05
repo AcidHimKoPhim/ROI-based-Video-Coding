@@ -154,6 +154,7 @@ protected:
   //==== ROI information
   std::string m_SequenceName; //sequence name, e.g.  BlowingBubbles, KristenAndSara,... any <sequence name> that ROi input file is <sequence name>.txt
   std::string m_ROIDirectory; //path to list of ROI files. e.g. D:/my/path/to/ROi/file
+  uint8_t     m_ROI_QP; //sequence name, e.g.  BlowingBubbles, KristenAndSara,... any <sequence name> that ROi input file is <sequence name>.txt
 
   //==== File I/O ========
   int       m_iFrameRate;
@@ -975,8 +976,13 @@ public:
   //===== set file name
   void      setROIinputFileName(std::string filename) { m_SequenceName = filename; }
   void      setROIinputFolder(std::string filename) { m_ROIDirectory = filename; }
+ // void      setROIQP(uint8_t roiqp) { m_ROI_QP = roiqp; }
+  
   std::string       getROIinputFileName()const { return  m_SequenceName; }
   std::string       getROIinputFolder()const { return  m_ROIDirectory; }
+  uint8_t           getROIQP()const { return  m_ROI_QP; }
+
+
 
   void setProfile(Profile::Name profile) { m_profile = profile; }
   void setLevel(Level::Tier tier, Level::Name level) { m_levelTier = tier; m_level = level; }

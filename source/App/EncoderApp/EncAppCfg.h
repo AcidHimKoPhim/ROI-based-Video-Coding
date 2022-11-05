@@ -82,6 +82,7 @@ protected:
   // === ROIs information 
   std::string m_SequenceName; //sequence name, e.g.  BlowingBubbles, KristenAndSara,... any <sequence name> that ROi input file is <sequence name>.txt
   std::string m_ROIDirectory; //path to list of ROI files. e.g. D:/my/path/to/ROi/file
+  //int m_ROI_QP;
 
   // file I/O
   std::string m_inputFileName;                                ///< source file name
