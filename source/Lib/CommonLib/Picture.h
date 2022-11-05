@@ -73,6 +73,7 @@ struct Picture : public UnitArea
 
   uint32_t noROIs;
   ROI *ROIlist;
+  int ROIQP;
 
 #if JVET_Z0120_SII_SEI_PROCESSING
   void create(const ChromaFormat &_chromaFormat, const Size &size, const unsigned _maxCUSize, const unsigned margin, const bool bDecoder, const int layerId, const bool enablePostFilteringForHFR, const bool gopBasedTemporalFilterEnabled = false, const bool fgcSEIAnalysisEnabled = false);
@@ -89,6 +90,7 @@ struct Picture : public UnitArea
   void copyROIs(int noROIs, Area * srcArea, uint32_t * srcQP);
   ROI * getROIList() { return ROIlist; }
   uint32_t getNumberOfROI() { return noROIs; }
+  int getQPROI() { return ROIQP; }
   //##### end of ROI-related
 
   int                       m_padValue;
