@@ -6,22 +6,23 @@
 #include "CommonDef.h"
 #include "Common.h"
 #include "TypeDef.h"
-
+#include "Unit.h"
 using namespace std;
 
-struct ROI : public Area
+class ROI : public Area
 {
-	uint32_t ROIQP;
+
+	uint8_t ROIQP;
 	ChromaFormat chromaFormat;
 	ComponentID compID;
-
+public:
 	ROI() : Area(), chromaFormat(NUM_CHROMA_FORMAT), compID(MAX_NUM_TBLOCKS) { ROIQP = 0; }
 
 	ROI(const Area &_area, const uint32_t qp) : Area(_area){ ROIQP = qp; }
 	ROI(const Position& _pos, const Size& _size, const uint32_t qp) : Area(_pos, _size) { ROIQP = qp; }
 	ROI(const uint32_t _x, const uint32_t _y, const uint32_t _w, const uint32_t _h, const uint32_t qp) : Area(_x, _y, _w, _h) { ROIQP = qp; }
 	
-	uint32_t getROIQP() { return ROIQP; }
+	uint8_t getROIQP() { return ROIQP; }
 	Area getArea() { return Area(x, y, width, height); }
 
 	void setROI(ChromaFormat _chromaFormat, ComponentID _compID, Area _area, uint32_t _qp)
@@ -35,7 +36,7 @@ struct ROI : public Area
 	Size     chromaSize() const;
 	Size     lumaSize()   const;
 
-	Position compPos(const ComponentID compID) const;
+	Position compPos(const ComponentID _compID) const;
 	Position chanPos(const ChannelType chType) const;
 
 	Position topLeftComp(const ComponentID _compID) const { return recalcPosition(chromaFormat, compID, _compID, *this); }

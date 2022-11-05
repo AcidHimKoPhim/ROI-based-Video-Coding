@@ -1,51 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph DataVirtualized="True" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="2" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@39" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,55.96,68.4433333333333,25.96" Label="create" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=104 StartCharacterOffset=0 EndLineNumber=104 EndCharacterOffset=0)">
+    <Node Id="(Name=CodingStructure::initStructData @1 @5 OverloadingParameters=[(Type=&quot;const int &amp;&quot; Name=QP),(Type=&quot;const bool &amp;&quot; Name=skipMotBuf),(Type=&quot;ROI *&quot; Name=_ROIlist),(@9 Name=noROIs)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1178.46337402344,462.726402286784,107.99,25.96" Label="initStructData" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=2185 StartCharacterOffset=0 EndLineNumber=2185 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@41" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="190.583333333333,0,68.4433333333333,25.96" Label="create" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enclib.cpp StartLineNumber=103 StartCharacterOffset=0 EndLineNumber=103 EndCharacterOffset=0)">
+    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1093.2506415274,41.0474157315449,62.1400000000001,25.96" Label="main" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encmain.cpp StartLineNumber=299 StartCharacterOffset=0 EndLineNumber=299 EndCharacterOffset=0)" UseManualLocation="True">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="98.4433333333333,55.96,84.0533333333333,25.96" Label="createLib" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encapp.cpp StartLineNumber=1457 StartCharacterOffset=0 EndLineNumber=1457 EndCharacterOffset=0)">
+    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1186.735,172.9425,91.4466666666667,25.96" Label="xCreateLib" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encapp.cpp StartLineNumber=1387 StartCharacterOffset=0 EndLineNumber=1387 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,0,62.14,25.96" Label="main" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encmain.cpp StartLineNumber=177 StartCharacterOffset=0 EndLineNumber=177 EndCharacterOffset=0)">
+    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1191.20734944661,538.624339599609,110.606666666667,25.96" Label="compressSlice" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/encslice.cpp StartLineNumber=1526 StartCharacterOffset=0 EndLineNumber=1526 EndCharacterOffset=0)" UseManualLocation="True">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@48" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="212.496666666667,55.96,91.4466666666667,25.96" Label="xCreateLib" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encapp.cpp StartLineNumber=1386 StartCharacterOffset=0 EndLineNumber=1386 EndCharacterOffset=0)">
+    <Node Id="@14" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1175.53831298828,406.766302286784,113.84,25.96" Label="createInternals" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=1665 StartCharacterOffset=0 EndLineNumber=1665 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@57" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,167.88,113.84,25.96" Label="createInternals" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=1667 StartCharacterOffset=0 EndLineNumber=1667 EndCharacterOffset=0)">
+    <Node Id="@15" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="952.304760742187,199.028346557617,74.9833333333333,25.96" Label="encode" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enclib.cpp StartLineNumber=687 StartCharacterOffset=0 EndLineNumber=687 EndCharacterOffset=0)" UseManualLocation="True">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@70" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="92.14,0,68.4433333333333,25.96" Label="create" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=1580 StartCharacterOffset=0 EndLineNumber=1580 EndCharacterOffset=0)">
+    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,518.8275,214.916666666667,25.96" Label="xCheckRDCostAffineMerge2Nx2N" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=3695 StartCharacterOffset=0 EndLineNumber=3695 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@71" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="122.986666666667,111.92,107.99,25.96" Label="initStructData" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=2224 StartCharacterOffset=0 EndLineNumber=2224 EndCharacterOffset=0)">
+    <Node Id="@21" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1023.98734944661,518.827525634766,137.22,25.96" Label="xCheckRDCostInter" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=4409 StartCharacterOffset=0 EndLineNumber=4409 EndCharacterOffset=0)" UseManualLocation="True">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="7.105427357601E-15,111.92,92.9866666666667,25.96" Label="External Code">
+    <Node Id="@22" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="245.613333333333,518.827500000001,183.69,25.96" Label="xCheckRDCostMerge2Nx2N" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=2912 StartCharacterOffset=0 EndLineNumber=2912 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@23" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="658.625,461.18,109.666666666667,25.96" Label="xCompressCU" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=810 StartCharacterOffset=0 EndLineNumber=810 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="658.198279514305,597.137545710795,107.99,25.96" Label="initStructData" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=2182 StartCharacterOffset=0 EndLineNumber=2182 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="674.952463612836,296.547901057898,98.3633333333333,25.96" Label="encodeCtus" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/encslice.cpp StartLineNumber=1850 StartCharacterOffset=0 EndLineNumber=1850 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="812.571864003104,518.8275,137.05,25.96" Label="xCheckRDCostIntra" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=1631 StartCharacterOffset=0 EndLineNumber=1631 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="460.136666666666,518.827500000001,158.643333333333,25.96" Label="xCheckRDCostInterIMV" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=4680 StartCharacterOffset=0 EndLineNumber=4680 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="659.040258755887,369.376046886238,104.886666666667,25.96" Label="compressCtu" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=316 StartCharacterOffset=0 EndLineNumber=316 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@29" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1198.23666666667,345.885,68.4433333333332,25.96" Label="create" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/commonlib/codingstructure.cpp StartLineNumber=1578 StartCharacterOffset=0 EndLineNumber=1578 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@30" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="649.475,518.8275,127.966666666667,25.96" Label="xCheckModeSplit" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=1263 StartCharacterOffset=0 EndLineNumber=1263 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="933.498894245041,356.750632505689,110.6,25.96" Label="compressGOP" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/encgop.cpp StartLineNumber=3355 StartCharacterOffset=0 EndLineNumber=3355 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="973.034669885083,120.037881219559,74.9833333333335,25.96" Label="encode" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encapp.cpp StartLineNumber=1620 StartCharacterOffset=0 EndLineNumber=1620 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1198.23666666667,288.2375,68.4433333333332,25.96" Label="create" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enccu.cpp StartLineNumber=115 StartCharacterOffset=0 EndLineNumber=115 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1198.23666666667,230.59,68.4433333333332,25.96" Label="create" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/lib/encoderlib/enclib.cpp StartLineNumber=103 StartCharacterOffset=0 EndLineNumber=103 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1190.43166666667,115.295,84.0533333333333,25.96" Label="createLib" SourceLocation="(Assembly=file:///d:/chi-document/research/topic/videocoding/franceproject/code/vvcsoftware_vtm/source/app/encoderapp/encapp.cpp StartLineNumber=1458 StartCharacterOffset=0 EndLineNumber=1458 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="1185.965,0,92.9866666666667,25.96" Label="External Code">
       <Category Ref="CallStackEntry" />
     </Node>
   </Nodes>
   <Links>
-    <Link Source="@39" Target="@70" Category="CallStackDirectCall" />
-    <Link Source="@41" Target="@39" Category="CallStackDirectCall" />
-    <Link Source="@42" Target="@48" Category="CallStackDirectCall" />
-    <Link Source="@45" Target="@42" Category="CallStackDirectCall" />
-    <Link Source="@48" Target="@41" Category="CallStackDirectCall" />
-    <Link Source="@57" Target="@71" Category="CallStackDirectCall" />
-    <Link Source="@70" Target="@57" Category="CallStackDirectCall" />
-    <Link Source="ExternalCodeRootNode" Target="@45" Category="CallStackIndirectCall" />
+    <Link Source="@10" Target="@4" Category="CallStackDirectCall" Bounds="1036.61877041812,67.0074162292481,69.0027578274237,47.8983642461001" />
+    <Link Source="@10" Target="@8" Category="CallStackDirectCall" Bounds="1143.2253036605,67.0074162292481,62.908837845506,43.19334983373" />
+    <Link Source="@11" Target="@7" Category="CallStackDirectCall" Bounds="1232.45837402344,198.902496337891,0,22.6875" />
+    <Link Source="@13" Target="@24" Category="CallStackDirectCall" Bounds="775.134812678868,557.660622936746,416.072536767746,45.5642186390247" />
+    <Link Source="@13" Target="@25" Category="CallStackDirectCall" Bounds="760.309459329679,326.292050519853,458.191746949814,212.332289079756" />
+    <Link Source="@14" Target="(Name=CodingStructure::initStructData @1 @5 OverloadingParameters=[(Type=&quot;const int &amp;&quot; Name=QP),(Type=&quot;const bool &amp;&quot; Name=skipMotBuf),(Type=&quot;ROI *&quot; Name=_ROIlist),(@9 Name=noROIs)] @3)" Category="CallStackDirectCall" Bounds="1232.45832714544,432.726292114258,2.29046213462425E-05,21.000113525396" />
+    <Link Source="@15" Target="@31" Category="CallStackDirectCall" Bounds="988.937902406524,224.988346557617,0.7764217126836,122.762470035369" />
+    <Link Source="@20" Target="@24" Category="CallStackDirectCall" Bounds="207.694034460098,544.787525634766,441.578769132321,57.1821467234571" />
+    <Link Source="@21" Target="@24" Category="CallStackDirectCall" Bounds="774.797265166339,544.787525634766,254.747589210888,52.4423927129048" />
+    <Link Source="@22" Target="@24" Category="CallStackDirectCall" Bounds="399.571199130704,544.787525634766,250.088771592927,52.2621577110219" />
+    <Link Source="@23" Target="@20" Category="CallStackDirectCall" Bounds="223.508819580078,479.376190185547,435.116180419922,40.1257019042969" />
+    <Link Source="@23" Target="@21" Category="CallStackDirectCall" Bounds="768.291676839193,482.497317391706,246.831419667175,37.5303601903134" />
+    <Link Source="@23" Target="@22" Category="CallStackDirectCall" Bounds="431.01513671875,482.566925048828,227.60986328125,34.8966369628906" />
+    <Link Source="@23" Target="@26" Category="CallStackDirectCall" Bounds="751.204083708452,487.13998840332,83.6362005356217,28.7608052491657" />
+    <Link Source="@23" Target="@27" Category="CallStackDirectCall" Bounds="587.179748535156,487.140014648438,87.1004638671875,28.8569946289063" />
+    <Link Source="@23" Target="@30" Category="CallStackDirectCall" Bounds="731.020935058594,487.140014648438,11.6873779296875,25.9268188476563" />
+    <Link Source="@25" Target="@28" Category="CallStackDirectCall" Bounds="715.278554212809,322.507908325195,6.60089688798678,38.0009059908329" />
+    <Link Source="@26" Target="@24" Category="CallStackDirectCall" Bounds="748.354391835348,544.787525634766,104.746447206826,48.5644096788633" />
+    <Link Source="@27" Target="@24" Category="CallStackDirectCall" Bounds="568.089385529585,544.787525634766,107.2758468382,48.6338920748098" />
+    <Link Source="@28" Target="@23" Category="CallStackDirectCall" Bounds="711.762815871955,395.336033325195,1.22277581260289,56.8460364761445" />
+    <Link Source="@29" Target="@14" Category="CallStackDirectCall" Bounds="1232.45833502383,371.845005493164,2.59867993008811E-05,25.9212866210984" />
+    <Link Source="@30" Target="@23" Category="CallStackDirectCall" Bounds="684.208312988281,492.900634765625,11.6874389648438,25.9268798828125" />
+    <Link Source="@30" Target="@24" Category="CallStackDirectCall" Bounds="712.548329231866,544.787525634766,0.700302613742792,43.3511941538642" />
+    <Link Source="@31" Target="@13" Category="CallStackDirectCall" Bounds="1007.19132191467,382.71063659668,213.573731737871,150.724326409618" />
+    <Link Source="@4" Target="@15" Category="CallStackDirectCall" Bounds="995.487391647434,145.997879486084,11.6325056550056,44.3252498613731" />
+    <Link Source="@6" Target="@29" Category="CallStackDirectCall" Bounds="1232.45837402344,314.197483520508,0,22.6875219726563" />
+    <Link Source="@7" Target="@6" Category="CallStackDirectCall" Bounds="1232.45837402344,256.549987792969,0,22.6875" />
+    <Link Source="@8" Target="@11" Category="CallStackDirectCall" Bounds="1232.45837402344,141.255004882813,0,22.6875" />
+    <Link Source="ExternalCodeRootNode" Target="@10" Category="CallStackIndirectCall" Bounds="1163.32291122074,25.9599995422363,34.940144041967,13.2627475220213" />
   </Links>
   <Categories>
     <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
@@ -63,7 +140,7 @@
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="Expression" DataType="System.String" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
@@ -73,9 +150,11 @@
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
     <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
   </Properties>
   <QualifiedNames>
     <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
@@ -85,20 +164,37 @@
     <Name Id="Type" Label="Type" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
-    <Alias n="2" Id="IsUnresolved=True" />
-    <Alias n="10" Uri="Assembly=EncoderApp.exe" />
-    <Alias n="13" Id="Type=void" />
-    <Alias n="32" Id="Type=int" />
-    <Alias n="39" Id="(Name=EncCu::create @10 @13 OverloadingParameters=[(Type=&quot;EncCfg * {EncLib}&quot; Name=encCfg)] @2)" />
-    <Alias n="40" Id="Type=&quot;const int&quot;" />
-    <Alias n="41" Id="(Name=EncLib::create @10 @13 OverloadingParameters=[(@40 Name=layerId)] @2)" />
-    <Alias n="42" Id="(Name=EncApp::createLib @10 @13 OverloadingParameters=[(@40 Name=layerIdx)] @2)" />
-    <Alias n="45" Id="(Name=main @10 @32 OverloadingParameters=[(@32 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @2)" />
-    <Alias n="48" Id="(Name=EncApp::xCreateLib @10 @13 OverloadingParameters=[(Type=&quot;std::list&lt;UnitBuf&lt;short&gt; *,std::allocator&lt;UnitBuf&lt;short&gt; *&gt; &gt; &amp;&quot; Name=recBufList),(@40 Name=layerId)] @2)" />
-    <Alias n="55" Id="Type=&quot;const bool&quot;" />
-    <Alias n="57" Id="(Name=CodingStructure::createInternals @10 @13 OverloadingParameters=[(Type=&quot;const UnitArea &amp;&quot; Name=_unit),(@55 Name=isTopLayer),(@55 Name=isPLTused)] @2)" />
-    <Alias n="70" Id="(Name=CodingStructure::create @10 @13 OverloadingParameters=[(Type=&quot;const ChromaFormat &amp;&quot; Name=_chromaFormat),(Type=&quot;const Area &amp;&quot; Name=_area),(@55 Name=isTopLayer),(@55 Name=isPLTused),(@55 Name=isGdrEnabled)] @2)" />
-    <Alias n="71" Id="(Name=CodingStructure::initStructData @10 @13 OverloadingParameters=[(Type=&quot;const int &amp;&quot; Name=QP),(Type=&quot;const bool &amp;&quot; Name=skipMotBuf),(Type=&quot;Area *&quot; Name=ROIArea),(Type=&quot;int *&quot; Name=ROIQP),(@32 Name=noROIs)] @2)" />
+    <Alias n="1" Uri="Assembly=EncoderApp.exe" />
+    <Alias n="2" Id="Type=bool" />
+    <Alias n="3" Id="IsUnresolved=True" />
+    <Alias n="4" Id="(Name=EncApp::encode @1 @2 @3)" />
+    <Alias n="5" Id="Type=void" />
+    <Alias n="6" Id="(Name=EncCu::create @1 @5 OverloadingParameters=[(Type=&quot;EncCfg * {EncLib}&quot; Name=encCfg)] @3)" />
+    <Alias n="7" Id="(Name=EncLib::create @1 @5 OverloadingParameters=[(Type=&quot;const int&quot; Name=layerId)] @3)" />
+    <Alias n="8" Id="(Name=EncApp::createLib @1 @5 OverloadingParameters=[(Type=&quot;const int&quot; Name=layerIdx)] @3)" />
+    <Alias n="9" Id="Type=int" />
+    <Alias n="10" Id="(Name=main @1 @9 OverloadingParameters=[(@9 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @3)" />
+    <Alias n="11" Id="(Name=EncApp::xCreateLib @1 @5 OverloadingParameters=[(Type=&quot;std::list&lt;UnitBuf&lt;short&gt; *,std::allocator&lt;UnitBuf&lt;short&gt; *&gt; &gt; &amp;&quot; Name=recBufList),(Type=&quot;const int&quot; Name=layerId)] @3)" />
+    <Alias n="12" Id="Type=&quot;const bool&quot;" />
+    <Alias n="13" Id="(Name=EncSlice::compressSlice @1 @5 OverloadingParameters=[(Type=&quot;Picture *&quot; Name=pcPic),(@12 Name=bCompressEntireSlice),(@12 Name=bFastDeltaQP)] @3)" />
+    <Alias n="14" Id="(Name=CodingStructure::createInternals @1 @5 OverloadingParameters=[(Type=&quot;const UnitArea &amp;&quot; Name=_unit),(@12 Name=isTopLayer),(@12 Name=isPLTused)] @3)" />
+    <Alias n="15" Id="(Name=EncLib::encode @1 @2 OverloadingParameters=[(Type=InputColourSpaceConversion Name=snrCSC),(Type=&quot;std::list&lt;UnitBuf&lt;short&gt; *,std::allocator&lt;UnitBuf&lt;short&gt; *&gt; &gt; &amp;&quot; Name=rcListPicYuvRecOut),(Type=&quot;int &amp;&quot; Name=numEncoded)] @3)" />
+    <Alias n="16" Id="(Type=&quot;CodingStructure * &amp;&quot; Name=tempCS)" />
+    <Alias n="17" Id="(Type=&quot;CodingStructure * &amp;&quot; Name=bestCS)" />
+    <Alias n="18" Id="(Type=&quot;Partitioner &amp; {QTBTPartitioner}&quot; Name=partitioner)" />
+    <Alias n="19" Id="(Type=&quot;const EncTestMode &amp;&quot; Name=encTestMode)" />
+    <Alias n="20" Id="(Name=EncCu::xCheckRDCostAffineMerge2Nx2N @1 @5 OverloadingParameters=[@16,@17,@18,@19] @3)" />
+    <Alias n="21" Id="(Name=EncCu::xCheckRDCostInter @1 @5 OverloadingParameters=[@16,@17,@18,@19] @3)" />
+    <Alias n="22" Id="(Name=EncCu::xCheckRDCostMerge2Nx2N @1 @5 OverloadingParameters=[@16,@17,@18,@19] @3)" />
+    <Alias n="23" Id="(Name=EncCu::xCompressCU @1 @5 OverloadingParameters=[@16,@17,@18,(Type=double Name=maxCostAllowed)] @3)" />
+    <Alias n="24" Id="(Name=CodingStructure::initStructData @1 @5 OverloadingParameters=[(Name=QP),(Name=skipMotBuf),(Type=&quot;ROI *&quot; Name=_ROIlist),(@9 Name=noROIs)] @3)" />
+    <Alias n="25" Id="(Name=EncSlice::encodeCtus @1 @5 OverloadingParameters=[(Type=&quot;Picture *&quot; Name=pcPic),(@12 Name=bCompressEntireSlice),(@12 Name=bFastDeltaQP),(Type=&quot;EncLib *&quot; Name=pEncLib)] @3)" />
+    <Alias n="26" Id="(Name=EncCu::xCheckRDCostIntra @1 @2 OverloadingParameters=[@16,@17,@18,@19,(@2 Name=adaptiveColorTrans)] @3)" />
+    <Alias n="27" Id="(Name=EncCu::xCheckRDCostInterIMV @1 @2 OverloadingParameters=[@16,@17,@18,@19,(Type=&quot;double &amp;&quot; Name=bestIntPelCost)] @3)" />
+    <Alias n="28" Id="(Name=EncCu::compressCtu @1 @5 OverloadingParameters=[(Type=&quot;CodingStructure &amp;&quot; Name=cs),(Type=&quot;const UnitArea &amp;&quot; Name=area),(Type=&quot;const unsigned int&quot; Name=ctuRsAddr),(Type=&quot;const int *&quot; Name=prevQP),(Type=&quot;const int *&quot; Name=currQP)] @3)" />
+    <Alias n="29" Id="(Name=CodingStructure::create @1 @5 OverloadingParameters=[(Type=&quot;const ChromaFormat &amp;&quot; Name=_chromaFormat),(Type=&quot;const Area &amp;&quot; Name=_area),(@12 Name=isTopLayer),(@12 Name=isPLTused),(@12 Name=isGdrEnabled)] @3)" />
+    <Alias n="30" Id="(Name=EncCu::xCheckModeSplit @1 @5 OverloadingParameters=[@16,@17,@18,@19,(Type=ModeType Name=modeTypeParent),(Type=&quot;bool &amp;&quot; Name=skipInterPass),(Type=&quot;double *&quot; Name=splitRdCostBest)] @3)" />
+    <Alias n="31" Id="(Name=EncGOP::compressGOP @1 @5 OverloadingParameters=[(@9 Name=pocLast),(@9 Name=numPicRcvd),(Type=&quot;std::list&lt;Picture *,std::allocator&lt;Picture *&gt; &gt; &amp;&quot; Name=rcListPic),(Type=&quot;std::list&lt;UnitBuf&lt;short&gt; *,std::allocator&lt;UnitBuf&lt;short&gt; *&gt; &gt; &amp;&quot; Name=rcListPicYuvRecOut),(@2 Name=isField),(@2 Name=isTff),(Type=InputColourSpaceConversion Name=snr_conversion),(@12 Name=printFrameMSE),(@12 Name=printMSSSIM),(@2 Name=isEncodeLtRef),(Type=&quot;const int&quot; Name=picIdInGOP)] @3)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
