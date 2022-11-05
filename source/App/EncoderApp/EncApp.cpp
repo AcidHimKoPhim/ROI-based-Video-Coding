@@ -272,7 +272,7 @@ void EncApp::xInitLibCfg()
 
   m_cEncLib.setROIinputFileName(m_SequenceName);
   m_cEncLib.setROIinputFolder(m_ROIDirectory);
-  //m_cEncLib.setROIQP(m_ROI_QP);
+  m_cEncLib.setROIQP(m_ROI_QP);
 
   //====== SPS constraint flags =======
   m_cEncLib.setGciPresentFlag                                    ( m_gciPresentFlag );

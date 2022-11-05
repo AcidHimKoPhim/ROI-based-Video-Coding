@@ -2,7 +2,7 @@
 
 This project is a under developed video coding framework that:
 - utilizes ROI-based QP settings
-- based on VTM (Anchor used: [VTM 18.2](https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM/-/tree/VTM-18.2))
+- based on VTM (Anchor used: [VTM 18.1](https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM/-/tree/VTM-18.1))
 - aims to the high level vision tasks.
 
 ## Preparation
@@ -18,11 +18,14 @@ This project is a under developed video coding framework that:
     ...
     line #n x y width height QP
 ```
+
 To run this project, a recommended command for encoder is:
 ```shell
 -c ./cfg/encoder_lowdelay_P_vtm.cfg  -c ./cfg/per-sequence/<sequence name>.cfg -i BlowingBubbles_416x240_50.yuv -q 47 -n <sequence name> -r /path/to/ROIinfo/
 ```
-where `-n <sequence name>` and `<-r /path/to/ROIinfo/>` is our definition of name and path to the ROi information, respectively.
+
+where `-n <sequence name>` and `<-r /path/to/ROIinfo/>` is our definition of name and path to the ROi information, respectively. If we hardcodely set QP for each ROI, an option of `--ROIQP <QP for all ROI>` should be added to the running command.
+
 - More information on how to build and customize the encoding is in [VVCSoftware_VTM GitLab](https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM).
 
 
@@ -42,8 +45,7 @@ Update: In this version, ROI and its QP have been considered whenever a `CodingS
     - [x] ROI class inherit from Area and Position
     - [x] loading ROI information for each video frame once 
     - [x] spread ROI information for the CodingStructure.
-        -   [ ] When a CU is coded with predicted QP? 
-        -   [ ] How many percent overlapping is acceptable?
+    - [x] ROI can be encoded with QP in ROI file or `--QPROI`
 - [ ] Either of the following approach should be developed:
     - [ ] Setting QP for each CUs (softcoded)
         - [ ] input a list file of ROIs

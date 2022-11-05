@@ -360,6 +360,10 @@ void Picture::ReadROIs(string readpath)
       //cout << x << ", " << y << ", " << w << ", " << h <<endl;
       tmpArea[i] = Area(Position((PosType)stoi(x), (PosType)stoi(y)), Size((SizeType)stoi(w), (SizeType)stoi(h)));
       tmpQP[i] = (int)stoi(qp);
+      if (ROIQP)//if ROI QP is set physically.
+      {
+        tmpQP[i] = ROIQP;
+      }
     }
     file.close();
   }
