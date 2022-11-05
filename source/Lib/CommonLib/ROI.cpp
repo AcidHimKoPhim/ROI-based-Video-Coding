@@ -12,7 +12,8 @@ void ROI::xRecalcLumaToChroma()
 	height >>= csy;
 }
 
-Position ROI::chromaPos() const
+
+Position ROI::compPos(ChromaFormat _compID) const
 {
 	if (isLuma(compID))
 	{
