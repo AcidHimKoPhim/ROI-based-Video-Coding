@@ -88,9 +88,11 @@ struct Picture : public UnitArea
   //##### ROI-related
   void ReadROIs(string readpath);
   void copyROIs(int noROIs, Area * srcArea, uint32_t * srcQP);
+  void setROIQP(int QP) { ROIQP = QP; };
   ROI * getROIList() { return ROIlist; }
   uint32_t getNumberOfROI() { return noROIs; }
   int getQPROI() { return ROIQP; }
+  
   //##### end of ROI-related
 
   int                       m_padValue;

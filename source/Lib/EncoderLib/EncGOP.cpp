@@ -2350,6 +2350,7 @@ void EncGOP::compressGOP(int pocLast, int numPicRcvd, PicList &rcListPic, std::l
     stringstream ROIPath; 
     ROIPath << m_pcCfg->getROIinputFolder() << "/" << m_pcCfg->getROIinputFileName() << "_qp" << m_pcCfg->getBaseQP() << "_frame" << pcPic->getPOC() << ".txt";
     pcPic->ReadROIs(ROIPath.str());
+    pcPic->setROIQP(m_pcCfg->getROIQP());
     //#####################
 
     picHeader = pcPic->cs->picHeader;

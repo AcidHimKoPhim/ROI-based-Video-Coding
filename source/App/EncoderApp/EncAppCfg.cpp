@@ -764,7 +764,7 @@ bool EncAppCfg::parseCfg( int argc, char* argv[] )
   //< ################################################    ROI information 
   ("SequenceROIName,n",                            m_SequenceName,                              string(""), "Name of the sequence for ROi info")
   ("SequenceROIFolder,r",                          m_ROIDirectory,                              string(""), "Folder of the sequence for ROi info")
-  ("ROIQP",                                        m_ROI_QP,                                      22, "QP of ROi")
+  ("ROIQP,-rqp",                                        m_ROI_QP,                                      0, "QP of ROi")
     // File, I/O and source parameters
   ("InputFile,i",                                     m_inputFileName,                             string(""), "Original YUV input file name")
   ("InputPathPrefix,-ipp",                            inputPathPrefix,                             string(""), "pathname to prepend to input filename")
