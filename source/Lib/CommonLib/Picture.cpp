@@ -120,6 +120,7 @@ void Picture::create( const ChromaFormat &_chromaFormat, const Size &size, const
   
   ROIlist = (ROI*)malloc(MAX_ROIS * sizeof(ROI));
   noROIs = 0;
+  ROIQP = 22;
 }
 
 void Picture::destroy()
