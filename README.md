@@ -51,6 +51,5 @@ Update: In this version, ROI and its QP have been considered whenever a `CodingS
         - [ ] input a list file of ROIs
         - [ ] Setting QP for each frame
     - [ ] Saliency-based QP settings
-- [ ] Encoding ROI information
 - [ ] Combining with high level vision tasks. 
 
