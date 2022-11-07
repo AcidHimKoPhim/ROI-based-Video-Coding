@@ -2204,13 +2204,14 @@ void CodingStructure::initStructData( const int &QP, const bool &skipMotBuf, ROI
           }
         }
         */
-        const Area thisArea = Area(area.lx(),area.ly(), area.lwidth(), area.lheight());
-        if (_ROIlist[i].getArea().overlap(thisArea))
+        const Area thisArea = Area(area.lumaPos(), area.lumaSize());
+        if (_ROIlist[i].getArea().overlap(thisArea) || _ROIlist[i].getArea().contains(thisArea))
         {
           Position BottomRightPoint = _ROIlist->bottomRight();
           if ((BottomRightPoint.x - area.block(COMPONENT_Y).topLeft().x + 1)*(BottomRightPoint.y - area.block(COMPONENT_Y).topLeft().y + 1) / (area.block(COMPONENT_Y).area()) > 0.2)
           {
             currQP[0] = currQP[1] = _ROIlist[i].getROIQP();//set QP here
+            baseQP = _ROIlist[i].getROIQP();//set QP here
             break;
           }
         }

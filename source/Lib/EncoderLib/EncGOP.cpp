@@ -2862,6 +2862,7 @@ void EncGOP::compressGOP(int pocLast, int numPicRcvd, PicList &rcListPic, std::l
 
     pcSlice->setList1IdxToList0Idx();
 
+
     if (m_pcEncLib->getTMVPModeId() == 2)
     {
       if (gopId == 0)   // first picture in SOP (i.e. forward B)
@@ -3228,7 +3229,7 @@ void EncGOP::compressGOP(int pocLast, int numPicRcvd, PicList &rcListPic, std::l
       {
         pcPic->fillSliceLossyLosslessArray(sliceLosslessArray, mixedLossyLossless);
       }
-
+      
       for(uint32_t sliceIdx = 0; sliceIdx < pcPic->cs->pps->getNumSlicesInPic(); sliceIdx++ )
       {
         pcSlice->setSliceMap( pcPic->cs->pps->getSliceMap( sliceIdx ) );
@@ -4076,6 +4077,7 @@ void EncGOP::compressGOP(int pocLast, int numPicRcvd, PicList &rcListPic, std::l
         cabac_zero_word_padding(pcSlice, pcPic, binCountsInNalUnits, numBytesInVclNalUnits, sumZeroWords, accessUnit.back()->m_nalUnitData, m_pcCfg->getCabacZeroWordPaddingEnabled(), profileLevelTierFeatures);
       }
 
+
       //-- For time output for each slice
       auto elapsed = std::chrono::steady_clock::now() - beforeTime;
       auto encTime = std::chrono::duration_cast<std::chrono::seconds>( elapsed ).count();
@@ -4116,6 +4118,17 @@ void EncGOP::compressGOP(int pocLast, int numPicRcvd, PicList &rcListPic, std::l
           std::vector<int> targetOLS;
           std::vector<int> targetLayers = {pcPic->layerId};
           xCreateScalableNestingSEI(trailingSeiMessages, nestedSEI, targetOLS, targetLayers, subPicIds, maxSubpicIdInPic);
+        }
+      }
+
+      for (CodingUnit *cuILF : pcPic->cs->cus)
+      {
+        if (cuILF->chType == CHANNEL_TYPE_CHROMA)
+          continue;
+
+        if (cuILF->imv != 0)
+        {
+          int m = 0; m++;
         }
       }
 
